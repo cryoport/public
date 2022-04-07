@@ -144,6 +144,9 @@
     <module name="TypecastParenPad"/>
     <module name="WhitespaceAfter"/>
     <module name="WhitespaceAround"/>
+    <module name="Indentation">
+      <property name="forceStrictCondition" value="true"/>
+    </module>
 
     <!-- Modifier Checks                                    -->
     <!-- See https://checkstyle.org/config_modifier.html -->
